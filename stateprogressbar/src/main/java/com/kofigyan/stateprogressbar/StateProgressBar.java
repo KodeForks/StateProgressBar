@@ -171,7 +171,7 @@ public class StateProgressBar extends View {
         mStateLineThickness = convertDpToPixel(mStateLineThickness);
         mSpacing = convertDpToPixel(mSpacing);
 
-        mCheckFont = FontManager.getTypeface(context);
+        mCheckFont = Typeface.create(Typeface.DEFAULT, Typeface.NORMAL);
         mDefaultTypefaceBold = Typeface.create(Typeface.DEFAULT, Typeface.BOLD);
 
 
